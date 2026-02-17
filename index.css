@@ -5661,7 +5661,7 @@
 }
 
 .u-section-13 .u-sheet-1 {
-  min-height: 1517px;
+  min-height: 1535px;
 }
 
 .u-section-13 .u-image-1 {
@@ -5750,6 +5750,7 @@
 
 .u-section-13 .u-form-group-5 {
   margin-left: 0;
+  margin-bottom: 0;
 }
 
 .u-section-13 .u-label-5 {
@@ -5758,6 +5759,10 @@
 
 .u-section-13 .u-input-5 {
   --radius: 9px;
+}
+
+.u-section-13 .u-form-group-6 {
+  margin-top: 20px;
 }
 
 .u-section-13 .u-label-6 {
@@ -5770,10 +5775,23 @@
 
 .u-section-13 .u-form-group-7 {
   margin-left: 0;
+  margin-top: 20px;
 }
 
 .u-section-13 .u-label-7 {
   font-family: SF-Pro-Display-Semibold;
+}
+
+.u-section-13 .u-form-group-8 {
+  margin-left: 0;
+}
+
+.u-section-13 .u-label-8 {
+  font-family: SF-Pro-Display-Semibold;
+}
+
+.u-section-13 .u-form-group-9 {
+  margin-top: 20px;
 }
 
 .u-section-13 .u-btn-1 {
@@ -5924,6 +5942,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-13 .u-sheet-1 {
+    min-height: 1517px;
+  }
+
   .u-section-13 .u-image-1 {
     margin-top: 641px;
   }
@@ -5933,7 +5955,6 @@
   }
 
   .u-section-13 .u-group-1 {
-    min-height: 1156px;
     margin-top: -1234px;
     height: auto;
   }
@@ -5974,7 +5995,7 @@
 
   .u-section-13 .u-layout-wrap-1 {
     margin-top: 40px;
-    margin-bottom: 39px;
+    margin-bottom: 44px;
   }
 
   .u-section-13 .u-text-4 {
@@ -6020,7 +6041,7 @@
 
 @media (max-width: 991px) {
   .u-section-13 .u-image-1 {
-    margin-top: 56px;
+    margin-top: 589px;
   }
 
   .u-section-13 .u-image-2 {
@@ -6028,7 +6049,6 @@
   }
 
   .u-section-13 .u-group-1 {
-    min-height: 1160px;
     margin-top: -1192px;
   }
 
@@ -6053,7 +6073,7 @@
 
   .u-section-13 .u-layout-wrap-1 {
     margin-top: 42px;
-    margin-bottom: -477px;
+    margin-bottom: 56px;
   }
 
   .u-section-13 .u-container-layout-2 {
@@ -6190,7 +6210,6 @@
   }
 
   .u-section-13 .u-group-1 {
-    min-height: 1172px;
     margin-top: -1084px;
   }
 
@@ -6213,6 +6232,7 @@
 
   .u-section-13 .u-layout-wrap-1 {
     margin-top: 47px;
+    margin-bottom: -318px;
   }
 
   .u-section-13 .u-layout-cell-1 {
@@ -6266,7 +6286,6 @@
   }
 
   .u-section-13 .u-group-1 {
-    min-height: 1248px;
     margin-top: -649px;
   }
 
