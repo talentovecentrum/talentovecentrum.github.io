@@ -1,0 +1,9 @@
+{
+  "name": "Talentové centrum",
+  "short_name": "Talentové centrum",
+  "lang": "sk",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#332b29"
+}
