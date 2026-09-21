@@ -2,7 +2,7 @@
 
 ## Pripravené v exporte
 
-- `index.html`: dokument je označený ako slovenský (`lang="sk"`), má self-referencing canonical `/`, Open Graph dáta a JSON-LD organizácie.
+- `index.html`: dokument je označený ako slovenský (`lang="sk"`), má absolútny self-referencing canonical, Open Graph dáta a JSON-LD organizácie.
 - `robots.txt`: stránka je povolená pre vyhľadávače.
 - `site.webmanifest`: základné identifikačné údaje webu.
 - `.nojekyll`: GitHub Pages bude publikovať súbory bez Jekyll spracovania.
@@ -16,7 +16,7 @@ SEO súbory sú pripravené pre `https://talentovecentrum.sk/`:
 - `robots.txt` odkazuje na finálny sitemap.
 - `sitemap.xml` obsahuje jedinú indexovateľnú URL stránky.
 
-Canonical v `index.html` je zámerne relatívny (`/`). Pri nasadení na GitHub Pages sa vyhodnotí ako koreň aktuálnej domény.
+Canonical, Open Graph URL, robots.txt a sitemap.xml používajú jednotne `https://talentovecentrum.sk/`.
 
 ## Po publikovaní
 
@@ -29,4 +29,4 @@ Canonical v `index.html` je zámerne relatívny (`/`). Pri nasadení na GitHub P
 
 - Ide o jednostránkový web; preto má sitemap práve jednu URL.
 - Navigácia a viacero CTA v exporte zatiaľ vedú na `./index.html` namiesto sekčných kotiev. Nezhoršuje to indexáciu domovskej stránky, ale používanie kotiev (`#talent`, `#dotaznik`, `#kontakt`) by zlepšilo prechádzanie obsahu používateľom.
-- Formulár je pôvodne Framer formulár. Po statickom GitHub nasadení je potrebné samostatne overiť jeho odosielanie; SEO súbory túto funkcionalitu nemenia.
+- Formulár je pôvodne Framer formulár. Export obsahuje honeypot, minimálny čas vyplnenia a limit opakovaného odoslania; po nasadení je však potrebné overiť odoslanie a ochranu doplniť na serveri/formulárovej službe (napr. Cloudflare Turnstile).
