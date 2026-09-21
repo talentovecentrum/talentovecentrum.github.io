@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://talentovecentrum.sk/sitemap.xml
