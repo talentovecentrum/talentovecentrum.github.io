@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-09-21T11:34:06.341Z",
+  "sourceUrl": "https://talentovecentrum.framer.website/",
+  "siteUrl": "https://talentovecentrum.sk/",
+  "pages": [
+    "https://talentovecentrum.sk/"
+  ],
+  "localizedAssets": 0,
+  "hideFramerBadgeCss": true,
+  "keepFramerRuntime": true,
+  "cname": "talentovecentrum.sk",
+  "notes": [
+    "Export zachováva Framer runtime pre tlačidlá, menu, hover efekty a animácie.",
+    "Pri zmene obsahu spustite export znovu.",
+    "Overte formuláre a externé integrácie po nasadení."
+  ]
+}
